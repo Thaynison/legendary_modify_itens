@@ -1,0 +1,17 @@
+Itens:
+  Magnetismo5x:
+    name: "Magnetismo 5x"
+    item: "PAPER"
+    raio: 5
+  Magnetismo10x:
+    name: "Magnetismo 10x"
+    item: "PAPER"
+    raio: 10
+  Magnetismo15x:
+    name: "Magnetismo 15x"
+    item: "PAPER"
+    raio: 15
+  Magnetismo20x:
+    name: "Magnetismo 20x"
+    item: "PAPER"
+    raio: 20

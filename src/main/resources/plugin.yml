@@ -1,0 +1,7 @@
+name: legendary_modify_itens
+version: '1.0.0'
+main: www.legendarycommunity.com.br.legendary_modify_itens.Legendary_modify_itens
+api-version: '1.21'
+authors: [ Thaynison ]
+description: Plugin Legendary Community
+website: http://www.legendarycommunity.com.br
