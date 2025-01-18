@@ -1,0 +1,17 @@
+Ores:
+  Elementium:
+    Minerio: "IRON_ORE"
+    itemdrop: "IRON_INGOT"
+    itemNameModify: "Barra de Elementium"
+  Manasteel:
+    Minerio: "GOLD_ORE"
+    itemdrop: "IRON_INGOT"
+    itemNameModify: "Barra de Manasteel"
+  Terrasteel:
+    Minerio: "DIAMOND_ORE"
+    itemdrop: "IRON_INGOT"
+    itemNameModify: "Barra de Terrasteel"
+  Gaia:
+    Minerio: "ANCIENT_DEBRIS"
+    itemdrop: "IRON_INGOT"
+    itemNameModify: "Barra de Gaia"

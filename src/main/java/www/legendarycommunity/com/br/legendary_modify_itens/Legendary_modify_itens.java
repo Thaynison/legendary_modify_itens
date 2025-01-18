@@ -2,6 +2,7 @@ package www.legendarycommunity.com.br.legendary_modify_itens;
 
 import org.bukkit.plugin.java.JavaPlugin;
 import www.legendarycommunity.com.br.legendary_modify_itens.itens.itemMagnetismo;
+import www.legendarycommunity.com.br.legendary_modify_itens.itens.oresModificados;
 
 public final class Legendary_modify_itens extends JavaPlugin {
 
@@ -10,7 +11,8 @@ public final class Legendary_modify_itens extends JavaPlugin {
     @Override
     public void onEnable() {
         itemMagnetismo = new itemMagnetismo(this);
-        itemMagnetismo.startMagnetismCheck(); // Inicia o sistema de magnetismo
+        itemMagnetismo.startMagnetismCheck();
+        new oresModificados(this);
     }
 
     @Override
