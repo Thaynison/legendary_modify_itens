@@ -1,0 +1,17 @@
+Crafts:
+  Elementium_Armor:
+    Elementium_Boots:
+      Craftablet:
+        Slots:
+          A: ""
+          B: ""
+          C: ""
+          D: ["IRON_INGOT", "Barra de Manasteel"]
+          E: ""
+          F: ["IRON_INGOT", "Barra de Manasteel"]
+          G: ["IRON_INGOT", "Barra de Manasteel"]
+          H: ""
+          I: ["IRON_INGOT", "Barra de Manasteel"]
+      GiveItem:
+        Material: "CHAINMAIL_BOOTS"
+        itemNameModify: "Bota de Elementium"

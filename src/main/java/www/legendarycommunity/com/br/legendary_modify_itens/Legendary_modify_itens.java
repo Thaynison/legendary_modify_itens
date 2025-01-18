@@ -13,10 +13,11 @@ public final class Legendary_modify_itens extends JavaPlugin {
         itemMagnetismo = new itemMagnetismo(this);
         itemMagnetismo.startMagnetismCheck(); // Inicia o sistema de magnetismo
         new BlockBreakListener(this);
+        getLogger().info("Legendary Modify Items foi habilitado com sucesso!");
     }
 
     @Override
     public void onDisable() {
-        // Plugin shutdown logic
+        getLogger().info("Legendary Modify Items foi desativado.");
     }
 }

@@ -9,6 +9,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
@@ -64,7 +65,11 @@ public class BlockBreakListener implements Listener {
 
                             ItemStack customItem = new ItemStack(material);
                             if (itemNameModify != null) {
-                                customItem.getItemMeta().setDisplayName(ChatColor.translateAlternateColorCodes('&', itemNameModify));
+                                ItemMeta meta = customItem.getItemMeta();
+                                if (meta != null) {
+                                    meta.setDisplayName(ChatColor.WHITE + itemNameModify);
+                                    customItem.setItemMeta(meta);
+                                }
                             }
 
                             dropItem(event, customItem, tool, player);
@@ -83,15 +88,27 @@ public class BlockBreakListener implements Listener {
     }
 
     private void dropItem(BlockBreakEvent event, ItemStack itemStack, ItemStack tool, Player player) {
-        applyFortune(itemStack, tool);
+        applyCustomName(itemStack); // Adiciona o nome customizado
+        applyFortune(itemStack, tool); // Aplica Fortuna
         event.getBlock().getWorld().dropItemNaturally(event.getBlock().getLocation(), itemStack);
     }
+
 
     private void applyFortune(ItemStack itemStack, ItemStack tool) {
         int fortuneLevel = tool.getEnchantmentLevel(Enchantment.FORTUNE);
         if (fortuneLevel > 0) {
             int extraAmount = (int) (Math.random() * (fortuneLevel + 1));
             itemStack.setAmount(itemStack.getAmount() + extraAmount);
+        }
+    }
+
+    private void applyCustomName(ItemStack itemStack) {
+        if (itemStack.getItemMeta() != null) {
+            ItemMeta meta = itemStack.getItemMeta();
+            if (meta.hasDisplayName()) {
+                meta.setDisplayName(ChatColor.translateAlternateColorCodes('&', meta.getDisplayName()));
+            }
+            itemStack.setItemMeta(meta); // Reaplica o meta ao ItemStack
         }
     }
 }
