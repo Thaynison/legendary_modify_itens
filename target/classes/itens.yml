@@ -1,0 +1,261 @@
+Itens:
+  1:
+    item: "PAPER"
+    nameDisplay: "Sacola de Money"
+    loreDisplay: "$ 1,00"
+    valueGive: 1.00
+  2:
+    item: "PAPER"
+    nameDisplay: "Sacola de Money"
+    loreDisplay: "$ 10,00"
+    valueGive: 10.00
+  3:
+    item: "PAPER"
+    nameDisplay: "Sacola de Money"
+    loreDisplay: "$ 50,00"
+    valueGive: 50.00
+  4:
+    item: "PAPER"
+    nameDisplay: "Sacola de Money"
+    loreDisplay: "$ 100,00"
+    valueGive: 100.00
+  5:
+    item: "PAPER"
+    nameDisplay: "Sacola de Money"
+    loreDisplay: "$ 500,00"
+    valueGive: 500.00
+  6:
+    item: "PAPER"
+    nameDisplay: "Sacola de Money"
+    loreDisplay: "$ 1.000,00"
+    valueGive: 1000.00
+  7:
+    item: "PAPER"
+    nameDisplay: "Sacola de Money"
+    loreDisplay: "$ 2.000,00"
+    valueGive: 2000.00
+  8:
+    item: "PAPER"
+    nameDisplay: "Sacola de Money"
+    loreDisplay: "$ 3.000,00"
+    valueGive: 3000.00
+  9:
+    item: "PAPER"
+    nameDisplay: "Sacola de Money"
+    loreDisplay: "$ 4.000,00"
+    valueGive: 4000.00
+  10:
+    item: "PAPER"
+    nameDisplay: "Sacola de Money"
+    loreDisplay: "$ 5.000,00"
+    valueGive: 5000.00
+  11:
+    item: "PAPER"
+    nameDisplay: "Sacola de Money"
+    loreDisplay: "$ 10.000,00"
+    valueGive: 10000.00
+  12:
+    item: "PAPER"
+    nameDisplay: "Sacola de Money"
+    loreDisplay: "$ 50.000,00"
+    valueGive: 50000.00
+  13:
+    item: "PAPER"
+    nameDisplay: "Sacola de Money"
+    loreDisplay: "$ 100.000,00"
+    valueGive: 100000.00
+  14:
+    item: "PAPER"
+    nameDisplay: "Sacola de Money"
+    loreDisplay: "$ 500.000,00"
+    valueGive: 500000.00
+  15:
+    item: "PAPER"
+    nameDisplay: "Sacola de Money"
+    loreDisplay: "$ 1.000.000,00"
+    valueGive: 1000000.00
+  16:
+    item: "PAPER"
+    nameDisplay: "Sacola de Money"
+    loreDisplay: "$ 5.000.000,00"
+    valueGive: 5000000.00
+  17:
+    item: "PAPER"
+    nameDisplay: "Sacola de Money"
+    loreDisplay: "$ 10.000.000,00"
+    valueGive: 10000000.00
+  18:
+    item: "PAPER"
+    nameDisplay: "Sacola de Money"
+    loreDisplay: "$ 50.000.000,00"
+    valueGive: 50000000.00
+  19:
+    item: "PAPER"
+    nameDisplay: "Sacola de Money"
+    loreDisplay: "$ 100.000.000,00"
+    valueGive: 100000000.00
+  20:
+    item: "PAPER"
+    nameDisplay: "Sacola de Money"
+    loreDisplay: "$ 500.000.000,00"
+    valueGive: 500000000.00
+  21:
+    item: "PAPER"
+    nameDisplay: "Sacola de Money"
+    loreDisplay: "$ 1.000.000.000,00"
+    valueGive: 1000000000.00
+  22:
+    item: "PAPER"
+    nameDisplay: "Sacola de Money"
+    loreDisplay: "$ 5.000.000.000,00"
+    valueGive: 5000000000.00
+  23:
+    item: "PAPER"
+    nameDisplay: "Sacola de Money"
+    loreDisplay: "$ 10.000.000.000,00"
+    valueGive: 10000000000.00
+  24:
+    item: "PAPER"
+    nameDisplay: "Sacola de Money"
+    loreDisplay: "$ 50.000.000.000,00"
+    valueGive: 50000000000.00
+  25:
+    item: "PAPER"
+    nameDisplay: "Sacola de Money"
+    loreDisplay: "$ 100.000.000.000,00"
+    valueGive: 100000000000.00
+
+
+Bottles:
+  1:
+    item: "GLASS_BOTTLE"
+    nameDisplay: "Potion de Velocidade"
+    effectName: "SPEED"
+    effectTime: 60 # segundos
+    effectAmplifier: 5
+    world: "world"
+  2:
+    item: "GLASS_BOTTLE"
+    nameDisplay: "Potion de Regeneracao"
+    effectName: "REGENERATION"
+    effectTime: 60 # segundos
+    effectAmplifier: 200
+    world: "hardcore"
+  3:
+    item: "GLASS_BOTTLE"
+    nameDisplay: "Potion de Protecao"
+    effectName: "RESISTANCE"
+    effectTime: 60 # segundos
+    effectAmplifier: 200
+    world: "hardcore"
+  4:
+    item: "GLASS_BOTTLE"
+    nameDisplay: "Potion de Forca"
+    effectName: "STRENGTH"
+    effectTime: 60 # segundos
+    effectAmplifier: 200
+    world: "hardcore"
+  5:
+    item: "GLASS_BOTTLE"
+    nameDisplay: "Potion de Cura"
+    effectName: "REGENERATION"
+    effectTime: 60 # segundos
+    effectAmplifier: 200
+    world: "hardcore"
+
+Reliquias:
+  1:
+    item: "PAPER"
+    nameDisplay: "Anel de Odin"
+    consoleCommand: "skill modifier add %player% strength ODIN 250"
+  2:
+    item: "PAPER"
+    nameDisplay: "Anel do Loki"
+    consoleCommand: "skill modifier add %player% health LOKI 250"
+  3:
+    item: "PAPER"
+    nameDisplay: "Anel do Thor"
+    consoleCommand: "skill modifier add %player% crit_chance THOR 250"
+  4:
+    item: "PAPER"
+    nameDisplay: "Mandamento da Pureza"
+    consoleCommand: "skill modifier add %player% strength MDPureza 30"
+  5:
+    item: "PAPER"
+    nameDisplay: "Mandamento da Paciencia"
+    consoleCommand: "skill modifier add %player% strength MDPaciencia 30"
+  6:
+    item: "PAPER"
+    nameDisplay: "Mandamento do Amor"
+    consoleCommand: "skill modifier add %player% strength MDAmor 30"
+  7:
+    item: "PAPER"
+    nameDisplay: "Mandamento do Altruismo"
+    consoleCommand: "skill modifier add %player% strength MDAltruismo 30"
+  8:
+    item: "PAPER"
+    nameDisplay: "Mandamento da Verdade"
+    consoleCommand: "skill modifier add %player% strength MDVerdade 30"
+  9:
+    item: "PAPER"
+    nameDisplay: "Mandamento do Repouso"
+    consoleCommand: "skill modifier add %player% strength MDRepouso 30"
+  10:
+    item: "PAPER"
+    nameDisplay: "Mandamento do Altruismo"
+    consoleCommand: "skill modifier add %player% strength MDAltruismo2 30"
+  11:
+    item: "PAPER"
+    nameDisplay: "Mandamento da Fe"
+    consoleCommand: "skill modifier add %player% strength MDFe 30"
+  12:
+    item: "PAPER"
+    nameDisplay: "Mandamento da Retencao"
+    consoleCommand: "skill modifier add %player% strength MDRetencao 30"
+  13:
+    item: "PAPER"
+    nameDisplay: "Mandamento da Piedade"
+    consoleCommand: "skill modifier add %player% strength MDPiedade 30"
+  14:
+    item: "PAPER"
+    nameDisplay: "Tablet de Mana Antimagia"
+    consoleCommand: "mana add %player% 500"
+  15:
+    item: "PAPER"
+    nameDisplay: "Tablet de Mana Blood"
+    consoleCommand: "mana add %player% 500"
+  16:
+    item: "PAPER"
+    nameDisplay: "Tablet de Mana"
+    consoleCommand: "mana add %player% 500"
+  17:
+    item: "PAPER"
+    nameDisplay: "Tablet de Mana Elfica"
+    consoleCommand: "mana add %player% 5000000000"
+
+Capes:
+  1:
+    item: "PAPER"
+    nameDisplay: "Capa da Invisibilidade"
+    rightClick: "effect give %player% minecraft:invisibility infinite 1"
+    leftClick: "effect clear %player% minecraft:invisibility"
+  2:
+    item: "PAPER"
+    nameDisplay: "Capa da Morte"
+    rightClick: "kill %player%"
+
+Books:
+  1:
+    item: "Book"
+    nameDisplay: "§eGuia de Comandos do Servidor Minecraft"
+    title: "Guia de Comandos do Servidor Minecraft"
+    pags:
+      - "Bem-vindo ao §bLegendary Community! \n\n§0Agradecemos por se juntar a nós nessa aventura única. \n\nNas próximas páginas, você encontrará todas as informações e comandos necessários em nosso servidor!"
+      - "Para deixar sua experiência ainda mais divertida! §b\n\nPedidos de Teleporte (TPA): §0\n\nPara aceitar um pedido de teleporte \n\nSe alguém enviou uma solicitação para se teletransportar até você, digite:"
+      - "§a/tpaccept §0\n\n(Isso permitirá que o jogador seja teletransportado diretamente para onde você está.) \n\nNegar um pedido de teletransporte \n\nNão quer que o jogador se teleporte até você? É só digitar:"
+      - "§a/tpdeny §0\n\n(Com isso, a solicitação será negada, e o jogador será notificado.) §b\n\nComo ir ao Banco: §0\n\nQuer guardar ou sacar seus itens mais preciosos? É só ir até o banco com este comando:"
+      - "§a/warp banco §0\n\n(Isso permitirá que o jogador guarde suas economias com segurança.) §b\n\nComo ir à Loja: §0\n\nPrecisa comprar ou vender itens? Então digite: §a\n\n/warp loja"
+      - "§0(Isso permitirá que o jogador compre itens e venda com segurança.) §b\n\nComo ir para casa: §a\n\n/sethome §0(digite a especificação exemplo: §cCasa§0) §0\n\n(Isso permitirá que o jogador salve sua casa)"
+      - "§a/home §0(Informe o nome que deu a sua home exemplo: §cCasa§0) §0\n\n(Isso permitirá que o jogador volte a sua casa) §a\n\n/delhome §0(Informe o nome que deu a sua home exemplo: §cCasa§0) §0\n\n(Isso permite excluir a home)"
+    author: "Legendary"
+

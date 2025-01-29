@@ -5,3 +5,11 @@ api-version: '1.21'
 authors: [ Thaynison ]
 description: Plugin Legendary Community
 website: http://www.legendarycommunity.com.br
+depend:
+  - Vault
+  - SimpleClans
+  - AuraSkills
+commands:
+  emotes:
+    description: Menu de Emotes do Servidor!
+    usage: /emotes

@@ -1,6 +1,11 @@
-www\legendarycommunity\com\br\legendary_modify_itens\itens\craftCustomItens.class
+www\legendarycommunity\com\br\legendary_modify_itens\itens\createCraft.class
+www\legendarycommunity\com\br\legendary_modify_itens\useitens\useBottle.class
+www\legendarycommunity\com\br\legendary_modify_itens\itens\itemMagnetismo.class
+www\legendarycommunity\com\br\legendary_modify_itens\useitens\useCapas.class
 www\legendarycommunity\com\br\legendary_modify_itens\itens\itemMagnetismo$1.class
 www\legendarycommunity\com\br\legendary_modify_itens\Legendary_modify_itens.class
 www\legendarycommunity\com\br\legendary_modify_itens\listeners\BlockBreakListener.class
-www\legendarycommunity\com\br\legendary_modify_itens\itens\itemMagnetismo.class
-www\legendarycommunity\com\br\legendary_modify_itens\itens\CustomCraftListener.class
+www\legendarycommunity\com\br\legendary_modify_itens\useitens\useMoneyPaper.class
+www\legendarycommunity\com\br\legendary_modify_itens\guis\emotesGui.class
+www\legendarycommunity\com\br\legendary_modify_itens\book\joinBookGive.class
+www\legendarycommunity\com\br\legendary_modify_itens\useitens\useReliquias.class

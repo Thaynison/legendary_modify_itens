@@ -1,6 +1,7 @@
 package www.legendarycommunity.com.br.legendary_modify_itens.itens;
 
 import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
@@ -56,9 +57,12 @@ public class itemMagnetismo {
         for (ItemStack itemStack : player.getInventory().getContents()) {
             if (itemStack != null && itemStack.hasItemMeta()) {
                 ItemMeta meta = itemStack.getItemMeta();
-                if (meta != null && meta.hasDisplayName() && meta.getDisplayName().equals(nomePapel)
-                        && itemStack.getType().toString().equalsIgnoreCase(item)) {
-                    return true;
+                if (meta != null && meta.hasDisplayName()) {
+                    // Remove as cores do nome do item
+                    String displayName = ChatColor.stripColor(meta.getDisplayName());
+                    if (displayName.equalsIgnoreCase(ChatColor.stripColor(nomePapel)) && itemStack.getType().toString().equalsIgnoreCase(item)) {
+                        return true;
+                    }
                 }
             }
         }
