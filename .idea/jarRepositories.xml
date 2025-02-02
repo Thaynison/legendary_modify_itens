@@ -2,6 +2,11 @@
 <project version="4">
   <component name="RemoteRepositoriesConfiguration">
     <remote-repository>
+      <option name="id" value="enginehub-repo" />
+      <option name="name" value="enginehub-repo" />
+      <option name="url" value="https://maven.enginehub.org/repo/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="roinujnosde-repo" />
       <option name="name" value="roinujnosde-repo" />
       <option name="url" value="https://repo.roinujnosde.me/releases/" />
@@ -32,6 +37,21 @@
       <option name="url" value="https://repo.projectshard.dev/repository/releases/" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="sk89q-maven" />
+      <option name="name" value="sk89q-maven" />
+      <option name="url" value="https://maven.enginehub.org/repo/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="sk89q-maven" />
+      <option name="name" value="sk89q-maven" />
+      <option name="url" value="http://maven.sk89q.com/repo" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="spigotmc-repo" />
       <option name="name" value="spigotmc-repo" />
       <option name="url" value="https://hub.spigotmc.org/nexus/content/repositories/public/" />
@@ -40,11 +60,6 @@
       <option name="id" value="spigotmc-repo" />
       <option name="name" value="spigotmc-repo" />
       <option name="url" value="https://hub.spigotmc.org/nexus/content/repositories/snapshots/" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="central" />
-      <option name="name" value="Maven Central repository" />
-      <option name="url" value="https://repo1.maven.org/maven2" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="jboss.community" />

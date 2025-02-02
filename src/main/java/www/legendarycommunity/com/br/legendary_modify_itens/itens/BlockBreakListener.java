@@ -1,4 +1,4 @@
-package www.legendarycommunity.com.br.legendary_modify_itens.listeners;
+package www.legendarycommunity.com.br.legendary_modify_itens.itens;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;

@@ -9,17 +9,24 @@ Ores:
     Minerio: "GOLD_ORE"
     itemdrop:
     - "RAW_GOLD"
-    - "IRON_INGOT":
+    - "GOLD_INGOT":
         itemNameModify: "Barra de Manasteel"
   Terrasteel:
     Minerio: "DIAMOND_ORE"
     itemdrop:
     - "DIAMOND"
-    - "IRON_INGOT":
+    - "DIAMOND":
         itemNameModify: "Barra de Terrasteel"
   Gaia:
     Minerio: "ANCIENT_DEBRIS"
     itemdrop:
     - "NETHERITE_SCRAP"
-    - "IRON_INGOT":
+    - "NETHERITE_INGOT":
         itemNameModify: "Barra de Gaia"
+
+Nidavellir:
+  FragmentoStar:
+    Block: "CRYING_OBSIDIAN"
+    itemdrop:
+      PRISMARINE_SHARD:
+        itemNameModify: "Fragmento de Nidavellir"
