@@ -29,4 +29,4 @@ Nidavellir:
     Block: "CRYING_OBSIDIAN"
     itemdrop:
       PRISMARINE_SHARD:
-        itemNameModify: "Fragmento de Nidavellir"
+        itemNameModify: "&6Fragmento de Nidavellir"

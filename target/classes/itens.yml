@@ -259,4 +259,3 @@ Books:
       - "§a/home §0(Informe o nome que deu a sua home exemplo: §cCasa§0) §0\n\n(Isso permitirá que o jogador volte a sua casa) §a\n\n/delhome §0(Informe o nome que deu a sua home exemplo: §cCasa§0) §0\n\n(Isso permite excluir a home)"
       - "§bMuita escuridão: §a\n\n/luz §0\n\n(Isso permitirá que o jogador tenha visão noturna infinitamente) §b\n\nMuito lixo: §a\n\n/lixeira §0\n\n(Isso permitirá que o jogador joque fora itens)"
     author: "Legendary"
-
