@@ -6,6 +6,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import www.legendarycommunity.com.br.legendary_modify_itens.book.joinBookGive;
 import www.legendarycommunity.com.br.legendary_modify_itens.guis.emotesGui;
 import www.legendarycommunity.com.br.legendary_modify_itens.itens.*;
+import www.legendarycommunity.com.br.legendary_modify_itens.regions.EffectRegionVisaoNoturna;
 import www.legendarycommunity.com.br.legendary_modify_itens.regions.flyRegionBlock;
 import www.legendarycommunity.com.br.legendary_modify_itens.useitens.useBottle;
 import www.legendarycommunity.com.br.legendary_modify_itens.useitens.useCapas;
@@ -39,6 +40,7 @@ public final class Legendary_modify_itens extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new flyRegionBlock(this), this);
         getServer().getPluginManager().registerEvents(new CryingBreakListener(this), this);
         getServer().getPluginManager().registerEvents(new Ouroboros(), this);
+        getServer().getPluginManager().registerEvents(new EffectRegionVisaoNoturna(this), this);
 
         this.getCommand("emotes").setExecutor(new emotesGui());
         getServer().getPluginManager().registerEvents(new emotesGui(), this);
