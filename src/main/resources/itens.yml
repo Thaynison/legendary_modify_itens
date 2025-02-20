@@ -232,6 +232,34 @@ Reliquias:
     item: "PAPER"
     nameDisplay: "Tablet de Mana Elfica"
     consoleCommand: "mana add %player% 5000000000"
+  18:
+    item: "PAPER"
+    nameDisplay: "Pecado da Ganancia Raposa"
+    consoleCommand: "skill modifier add %player% regeneration PCGananciaRaposa 150"
+  19:
+    item: "PAPER"
+    nameDisplay: "Pecado do Orgulho do Leao"
+    consoleCommand: "skill modifier add %player% strength PCOrgulhoLeao 200"
+  20:
+    item: "PAPER"
+    nameDisplay: "Pecado da Gula do Javali"
+    consoleCommand: "skill modifier add %player% wisdom PCGulaJavali 400"
+  21:
+    item: "PAPER"
+    nameDisplay: "Pecado da Luxuria da Cabra"
+    consoleCommand: "skill modifier add %player% crit_chance PCLuxuriaCabra 150"
+  22:
+    item: "PAPER"
+    nameDisplay: "Pecado da Ira do Dragao"
+    consoleCommand: "skill modifier add %player% crit_damage PCIraDragao 250"
+  23:
+    item: "PAPER"
+    nameDisplay: "Pecado da Inveja da Serpente"
+    consoleCommand: "skill modifier add %player% toughness PCInvejaSerpente 150"
+  24:
+    item: "PAPER"
+    nameDisplay: "Pecado da Preguica do Urso"
+    consoleCommand: "skill modifier add %player% health PCPreguicaUrso 300"
 
 Capes:
   1:
