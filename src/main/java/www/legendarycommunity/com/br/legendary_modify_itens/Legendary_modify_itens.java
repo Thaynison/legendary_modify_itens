@@ -39,8 +39,10 @@ public final class Legendary_modify_itens extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new joinBookGive(this), this);
         getServer().getPluginManager().registerEvents(new flyRegionBlock(this), this);
         getServer().getPluginManager().registerEvents(new CryingBreakListener(this), this);
-        getServer().getPluginManager().registerEvents(new Ouroboros(), this);
+        getServer().getPluginManager().registerEvents(new Ouroboros(this), this);
+        getServer().getPluginManager().registerEvents(new Armageddon(this), this);
         getServer().getPluginManager().registerEvents(new EffectRegionVisaoNoturna(this), this);
+        getServer().getPluginManager().registerEvents(new DropBossesItens(this), this);
 
         this.getCommand("emotes").setExecutor(new emotesGui());
         getServer().getPluginManager().registerEvents(new emotesGui(), this);

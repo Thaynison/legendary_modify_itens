@@ -287,3 +287,152 @@ Books:
       - "§a/home §0(Informe o nome que deu a sua home exemplo: §cCasa§0) §0\n\n(Isso permitirá que o jogador volte a sua casa) §a\n\n/delhome §0(Informe o nome que deu a sua home exemplo: §cCasa§0) §0\n\n(Isso permite excluir a home)"
       - "§bMuita escuridão: §a\n\n/luz §0\n\n(Isso permitirá que o jogador tenha visão noturna infinitamente) §b\n\nMuito lixo: §a\n\n/lixeira §0\n\n(Isso permitirá que o jogador joque fora itens)"
     author: "Legendary"
+
+Bosses:
+  1:
+    Mob: ZOMBIE
+    NameDisplay: "derieri"
+    NameItem: "Mandamento da Pureza"
+    DescItem: "+30 de §4Força"
+    DescItem2: "Mandamento"
+    DropItem: PAPER
+  2:
+    Mob: ZOMBIE
+    NameDisplay: "drole"
+    NameItem: "Mandamento da Paciencia"
+    DescItem: "+30 de §4Força"
+    DescItem2: "Mandamento"
+    DropItem: PAPER
+  3:
+    Mob: ZOMBIE
+    NameDisplay: "estarossa"
+    NameItem: "Mandamento do Amor"
+    DescItem: "+30 de §4Força"
+    DescItem2: "Mandamento"
+    DropItem: PAPER
+  4:
+    Mob: ZOMBIE
+    NameDisplay: "fraudrin"
+    NameItem: "Mandamento do Altruismo"
+    DescItem: "+30 de §4Força"
+    DescItem2: "Mandamento"
+    DropItem: PAPER
+  5:
+    Mob: ZOMBIE
+    NameDisplay: "galand"
+    NameItem: "Mandamento da Verdade"
+    DescItem: "+30 de §4Força"
+    DescItem2: "Mandamento"
+    DropItem: PAPER
+  6:
+    Mob: ZOMBIE
+    NameDisplay: "gloxinia"
+    NameItem: "Mandamento do Repouso"
+    DescItem: "+30 de §4Força"
+    DescItem2: "Mandamento"
+    DropItem: PAPER
+  7:
+    Mob: ZOMBIE
+    NameDisplay: "gowther"
+    NameItem: "Mandamento do Altruismo"
+    DescItem: "+30 de §4Força"
+    DescItem2: "Mandamento"
+    DropItem: PAPER
+  8:
+    Mob: ZOMBIE
+    NameDisplay: "melascula"
+    NameItem: "Mandamento da Fe"
+    DescItem: "+30 de §4Força"
+    DescItem2: "Mandamento"
+    DropItem: PAPER
+  9:
+    Mob: ZOMBIE
+    NameDisplay: "monspiet"
+    NameItem: "Mandamento da Retencao"
+    DescItem: "+30 de §4Força"
+    DescItem2: "Mandamento"
+    DropItem: PAPER
+  10:
+    Mob: ZOMBIE
+    NameDisplay: "zeldris"
+    NameItem: "Mandamento da Piedade"
+    DescItem: "+30 de §4Força"
+    DescItem2: "Mandamento"
+    DropItem: PAPER
+  11:
+    Mob: ZOMBIE
+    NameDisplay: "ban"
+    NameItem: "Pecado da Ganancia Raposa"
+    DescItem: "+150 de §6Regeneração"
+    DescItem2: "Pecado"
+    DropItem: PAPER
+  12:
+    Mob: ZOMBIE
+    NameDisplay: "escanor"
+    NameItem: "Pecado do Orgulho do Leao"
+    DescItem: "+200 de §4Força"
+    DescItem2: "Pecado"
+    DropItem: PAPER
+  13:
+    Mob: ZOMBIE
+    NameDisplay: "merlin"
+    NameItem: "Pecado da Gula do Javali"
+    DescItem: "+400 de §9Sabedoria"
+    DescItem2: "Pecado"
+    DropItem: PAPER
+  14:
+    Mob: ZOMBIE
+    NameDisplay: "gowther"
+    NameItem: "Pecado da Luxuria da Cabra"
+    DescItem: "+150 de §aChance Crítica"
+    DescItem2: "Pecado"
+    DropItem: PAPER
+  15:
+    Mob: ZOMBIE
+    NameDisplay: "meliodas"
+    NameItem: "Pecado da Ira do Dragao"
+    DescItem: "+250 de §3Dano Crítico"
+    DescItem2: "Pecado"
+    DropItem: PAPER
+  16:
+    Mob: ZOMBIE
+    NameDisplay: "diane"
+    NameItem: "Pecado da Inveja da Serpente"
+    DescItem: "+150 de §5Tenacidade"
+    DescItem2: "Pecado"
+    DropItem: PAPER
+  17:
+    Mob: ZOMBIE
+    NameDisplay: "king"
+    NameItem: "Pecado da Preguica do Urso"
+    DescItem: "+300 de §cVida"
+    DescItem2: "Pecado"
+    DropItem: PAPER
+  18:
+    Mob: ZOMBIE
+    NameDisplay: "ryudoshel"
+    NameItem: "Graca do Flash"
+    DescItem: "+30 de §5Tenacidade"
+    DescItem2: "Graça"
+    DropItem: PAPER
+  19:
+    Mob: ZOMBIE
+    NameDisplay: "mael"
+    NameItem: "Graca de Sunshine"
+    DescItem: "+30 de §5Tenacidade"
+    DescItem2: "Graça"
+    DropItem: PAPER
+  20:
+    Mob: ZOMBIE
+    NameDisplay: "sariel"
+    NameItem: "Graca do Tornado"
+    DescItem: "+30 de §5Tenacidade"
+    DescItem2: "Graça"
+    DropItem: PAPER
+  21:
+    Mob: ZOMBIE
+    NameDisplay: "tarmiel"
+    NameItem: "Graca do Oceano"
+    DescItem: "+30 de §5Tenacidade"
+    DescItem2: "Graça"
+    DropItem: PAPER

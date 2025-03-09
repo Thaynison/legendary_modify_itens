@@ -1,5 +1,8 @@
+www\legendarycommunity\com\br\legendary_modify_itens\itens\Armageddon.class
 www\legendarycommunity\com\br\legendary_modify_itens\itens\BlockBreakListener.class
 www\legendarycommunity\com\br\legendary_modify_itens\useitens\useBottle.class
+www\legendarycommunity\com\br\legendary_modify_itens\itens\Ouroboros$1.class
+www\legendarycommunity\com\br\legendary_modify_itens\itens\Armageddon$1.class
 www\legendarycommunity\com\br\legendary_modify_itens\regions\flyRegionBlock.class
 www\legendarycommunity\com\br\legendary_modify_itens\itens\itemMagnetismo.class
 www\legendarycommunity\com\br\legendary_modify_itens\useitens\useCapas.class
@@ -7,6 +10,7 @@ www\legendarycommunity\com\br\legendary_modify_itens\itens\itemMagnetismo$1.clas
 www\legendarycommunity\com\br\legendary_modify_itens\itens\CryingBreakListener.class
 www\legendarycommunity\com\br\legendary_modify_itens\itens\Ouroboros.class
 www\legendarycommunity\com\br\legendary_modify_itens\Legendary_modify_itens.class
+www\legendarycommunity\com\br\legendary_modify_itens\itens\DropBossesItens.class
 www\legendarycommunity\com\br\legendary_modify_itens\useitens\useMoneyPaper.class
 www\legendarycommunity\com\br\legendary_modify_itens\guis\emotesGui.class
 www\legendarycommunity\com\br\legendary_modify_itens\regions\EffectRegionVisaoNoturna.class
